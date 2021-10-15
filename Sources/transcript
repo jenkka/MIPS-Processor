@@ -1,0 +1,1529 @@
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of OR_Gate.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# 19 compiles, 0 failed with no errors.
+vsim -gui work.MIPS_Processor_TB
+# vsim -gui work.MIPS_Processor_TB 
+# Start time: 20:54:37 on Mar 30,2020
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Multiplexer2to1
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.OR_Gate
+# Loading work.ProgramMemory
+# Loading work.DataMemory
+# Loading work.Adder32bits
+# Loading work.ShiftLeft2
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(174): [PCDPC] - Port size (5) does not match connection size (4) for port 'MUX_Output'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_IntoWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(188): [PCDPC] - Port size (5) does not match connection size (4) for port 'MUX_Data0'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(188): [PCDPC] - Port size (5) does not match connection size (32) for port 'MUX_Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(286): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+add wave sim:/MIPS_Processor_TB/*
+run
+quit -sim
+# End time: 20:55:28 on Mar 30,2020, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 6
+# reading C:/intelFPGA/19.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project MIPS
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# 18 compiles, 0 failed with no errors.
+vsim -gui work.MIPS_Processor_TB
+# vsim -gui work.MIPS_Processor_TB 
+# Start time: 20:56:15 on Mar 30,2020
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.ProgramMemory
+# Loading work.Adder32bits
+# Loading work.Multiplexer2to1
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.DataMemory
+# Loading work.ShiftLeft2
+# ** Warning: (vsim-3017) C:/Users/The Jenkka/Downloads/CANO/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/Users/The Jenkka/Downloads/CANO/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/Users/The Jenkka/Downloads/CANO/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/Users/The Jenkka/Downloads/CANO/Sources/MIPS_Processor.v(225): [PCDPC] - Port size (5) does not match connection size (32) for port 'MUX_Data1'. The port definition is at: C:/Users/The Jenkka/Downloads/CANO/Sources/Multiplexer2to1.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/RaMux File: C:/Users/The Jenkka/Downloads/CANO/Sources/Multiplexer2to1.v
+add wave sim:/MIPS_Processor_TB/*
+run
+restart -f
+# ** Warning: (vsim-3017) C:/Users/The Jenkka/Downloads/CANO/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/Users/The Jenkka/Downloads/CANO/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/Users/The Jenkka/Downloads/CANO/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/Users/The Jenkka/Downloads/CANO/Sources/MIPS_Processor.v(225): [PCDPC] - Port size (5) does not match connection size (32) for port 'MUX_Data1'. The port definition is at: C:/Users/The Jenkka/Downloads/CANO/Sources/Multiplexer2to1.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/RaMux File: C:/Users/The Jenkka/Downloads/CANO/Sources/Multiplexer2to1.v
+run -all
+quit -sim
+# End time: 21:39:39 on Mar 30,2020, Elapsed time: 0:43:24
+# Errors: 0, Warnings: 6
+# reading C:/intelFPGA/19.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project MIPS_Processor
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of OR_Gate.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# 19 compiles, 0 failed with no errors.
+vsim -gui work.MIPS_Processor_TB
+# vsim -gui work.MIPS_Processor_TB 
+# Start time: 21:40:34 on Mar 30,2020
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Multiplexer2to1
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.OR_Gate
+# Loading work.ProgramMemory
+# Loading work.DataMemory
+# Loading work.Adder32bits
+# Loading work.ShiftLeft2
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.ANDGate
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(174): [PCDPC] - Port size (5) does not match connection size (4) for port 'MUX_Output'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_IntoWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(188): [PCDPC] - Port size (5) does not match connection size (4) for port 'MUX_Data0'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(188): [PCDPC] - Port size (5) does not match connection size (32) for port 'MUX_Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(285): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+add wave sim:/MIPS_Processor_TB/*
+run
+restart -f
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(174): [PCDPC] - Port size (5) does not match connection size (4) for port 'MUX_Output'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_IntoWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(188): [PCDPC] - Port size (5) does not match connection size (4) for port 'MUX_Data0'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(188): [PCDPC] - Port size (5) does not match connection size (32) for port 'MUX_Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(285): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+run -all
+quit -sim
+# End time: 21:43:51 on Mar 30,2020, Elapsed time: 0:03:17
+# Errors: 0, Warnings: 12
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of OR_Gate.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# 19 compiles, 0 failed with no errors.
+vsim -gui work.MIPS_Processor_TB
+# vsim -gui work.MIPS_Processor_TB 
+# Start time: 21:44:02 on Mar 30,2020
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Multiplexer2to1
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.OR_Gate
+# Loading work.ProgramMemory
+# Loading work.DataMemory
+# Loading work.Adder32bits
+# Loading work.ShiftLeft2
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.ANDGate
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(174): [PCDPC] - Port size (5) does not match connection size (4) for port 'MUX_Output'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_IntoWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(188): [PCDPC] - Port size (5) does not match connection size (4) for port 'MUX_Data0'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(188): [PCDPC] - Port size (5) does not match connection size (32) for port 'MUX_Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(285): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+add wave sim:/MIPS_Processor_TB/*
+run
+quit -sim
+# End time: 21:47:28 on Mar 30,2020, Elapsed time: 0:03:26
+# Errors: 0, Warnings: 6
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of OR_Gate.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# 19 compiles, 0 failed with no errors.
+vsim -gui work.MIPS_Processor_TB
+# vsim -gui work.MIPS_Processor_TB 
+# Start time: 21:47:48 on Mar 30,2020
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Multiplexer2to1
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.OR_Gate
+# Loading work.ProgramMemory
+# Loading work.DataMemory
+# Loading work.Adder32bits
+# Loading work.ShiftLeft2
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.ANDGate
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(174): [PCDPC] - Port size (5) does not match connection size (4) for port 'MUX_Output'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_IntoWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(188): [PCDPC] - Port size (5) does not match connection size (4) for port 'MUX_Data0'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(188): [PCDPC] - Port size (5) does not match connection size (32) for port 'MUX_Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(285): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+add wave sim:/MIPS_Processor_TB/*
+run
+# ** Warning: (vsim-7) Failed to open readmem file "text.dat" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/MIPSProjects/MIPSProcessor/Sources/ProgramMemory.v(35)
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/ROMProgramMemory
+quit -sim
+# End time: 21:48:34 on Mar 30,2020, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 7
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of OR_Gate.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# 19 compiles, 0 failed with no errors.
+vsim -gui work.MIPS_Processor_TB
+# vsim -gui work.MIPS_Processor_TB 
+# Start time: 21:48:47 on Mar 30,2020
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Multiplexer2to1
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.OR_Gate
+# Loading work.ProgramMemory
+# Loading work.DataMemory
+# Loading work.Adder32bits
+# Loading work.ShiftLeft2
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.ANDGate
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(174): [PCDPC] - Port size (5) does not match connection size (4) for port 'MUX_Output'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_IntoWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(188): [PCDPC] - Port size (5) does not match connection size (4) for port 'MUX_Data0'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(188): [PCDPC] - Port size (5) does not match connection size (32) for port 'MUX_Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(285): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+add wave -position insertpoint sim:/MIPS_Processor_TB/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 21:53:41 on Mar 30,2020, Elapsed time: 0:04:54
+# Errors: 0, Warnings: 6
+# Load canceled
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of OR_Gate.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# 19 compiles, 0 failed with no errors.
+vsim -gui work.MIPS_Processor_TB
+# vsim -gui work.MIPS_Processor_TB 
+# Start time: 21:54:06 on Mar 30,2020
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Multiplexer2to1
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.OR_Gate
+# Loading work.ProgramMemory
+# Loading work.DataMemory
+# Loading work.Adder32bits
+# Loading work.ShiftLeft2
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.ANDGate
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(173): [PCDPC] - Port size (5) does not match connection size (4) for port 'MUX_Output'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_IntoWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(187): [PCDPC] - Port size (5) does not match connection size (4) for port 'MUX_Data0'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(187): [PCDPC] - Port size (5) does not match connection size (32) for port 'MUX_Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(284): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+add wave sim:/MIPS_Processor_TB/*
+run
+quit -sim
+# End time: 21:55:05 on Mar 30,2020, Elapsed time: 0:00:59
+# Errors: 0, Warnings: 6
+vsim -gui work.MIPS_Processor_TB
+# vsim -gui work.MIPS_Processor_TB 
+# Start time: 21:55:09 on Mar 30,2020
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Multiplexer2to1
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.OR_Gate
+# Loading work.ProgramMemory
+# Loading work.DataMemory
+# Loading work.Adder32bits
+# Loading work.ShiftLeft2
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.ANDGate
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(173): [PCDPC] - Port size (5) does not match connection size (4) for port 'MUX_Output'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_IntoWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(187): [PCDPC] - Port size (5) does not match connection size (4) for port 'MUX_Data0'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(187): [PCDPC] - Port size (5) does not match connection size (32) for port 'MUX_Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(284): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+add wave sim:/MIPS_Processor_TB/*
+run
+quit -sim
+vsim -gui work.MIPS_Processor_TB
+# End time: 21:56:09 on Mar 30,2020, Elapsed time: 0:01:00
+# Errors: 0, Warnings: 6
+# vsim -gui work.MIPS_Processor_TB 
+# Start time: 21:56:09 on Mar 30,2020
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Multiplexer2to1
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.OR_Gate
+# Loading work.ProgramMemory
+# Loading work.DataMemory
+# Loading work.Adder32bits
+# Loading work.ShiftLeft2
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.ANDGate
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(173): [PCDPC] - Port size (5) does not match connection size (4) for port 'MUX_Output'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_IntoWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(187): [PCDPC] - Port size (5) does not match connection size (4) for port 'MUX_Data0'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(187): [PCDPC] - Port size (5) does not match connection size (32) for port 'MUX_Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(284): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+add wave sim:/MIPS_Processor_TB/*
+run
+restart -f
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(173): [PCDPC] - Port size (5) does not match connection size (4) for port 'MUX_Output'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_IntoWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(187): [PCDPC] - Port size (5) does not match connection size (4) for port 'MUX_Data0'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(187): [PCDPC] - Port size (5) does not match connection size (32) for port 'MUX_Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(284): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+run
+quit -sim
+# End time: 22:03:04 on Mar 30,2020, Elapsed time: 0:06:55
+# Errors: 0, Warnings: 12
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of OR_Gate.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# 19 compiles, 0 failed with no errors.
+vsim -gui work.MIPS_Processor_TB
+# vsim -gui work.MIPS_Processor_TB 
+# Start time: 22:03:14 on Mar 30,2020
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Multiplexer2to1
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.OR_Gate
+# Loading work.ProgramMemory
+# Loading work.DataMemory
+# Loading work.Adder32bits
+# Loading work.ShiftLeft2
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.ANDGate
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(173): [PCDPC] - Port size (5) does not match connection size (4) for port 'MUX_Output'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_IntoWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(187): [PCDPC] - Port size (5) does not match connection size (4) for port 'MUX_Data0'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(187): [PCDPC] - Port size (5) does not match connection size (32) for port 'MUX_Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(284): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+add wave sim:/MIPS_Processor_TB/*
+run
+quit -sim
+# End time: 22:08:50 on Mar 30,2020, Elapsed time: 0:05:36
+# Errors: 0, Warnings: 6
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of OR_Gate.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# 19 compiles, 0 failed with no errors.
+vsim -gui work.MIPS_Processor_TB
+# vsim -gui work.MIPS_Processor_TB 
+# Start time: 22:09:03 on Mar 30,2020
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Multiplexer2to1
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.OR_Gate
+# Loading work.ProgramMemory
+# Loading work.DataMemory
+# Loading work.Adder32bits
+# Loading work.ShiftLeft2
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.ANDGate
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(187): [PCDPC] - Port size (5) does not match connection size (32) for port 'MUX_Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(284): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+add wave -position insertpoint sim:/MIPS_Processor_TB/*
+add wave sim:/MIPS_Processor_TB/*
+run
+quit -sim
+# End time: 22:13:38 on Mar 30,2020, Elapsed time: 0:04:35
+# Errors: 0, Warnings: 4
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of OR_Gate.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# 19 compiles, 0 failed with no errors.
+vsim -gui work.MIPS_Processor_TB
+# vsim -gui work.MIPS_Processor_TB 
+# Start time: 22:13:50 on Mar 30,2020
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Multiplexer2to1
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.OR_Gate
+# Loading work.ProgramMemory
+# Loading work.DataMemory
+# Loading work.Adder32bits
+# Loading work.ShiftLeft2
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.ANDGate
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(187): [PCDPC] - Port size (5) does not match connection size (32) for port 'MUX_Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(284): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+add wave sim:/MIPS_Processor_TB/*
+run
+quit -sim
+# End time: 22:30:42 on Mar 30,2020, Elapsed time: 0:16:52
+# Errors: 0, Warnings: 4
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of OR_Gate.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# 19 compiles, 0 failed with no errors.
+vsim -gui work.MIPS_Processor_TB
+# vsim -gui work.MIPS_Processor_TB 
+# Start time: 22:30:54 on Mar 30,2020
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Multiplexer2to1
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.OR_Gate
+# Loading work.ProgramMemory
+# Loading work.DataMemory
+# Loading work.Adder32bits
+# Loading work.ShiftLeft2
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.ANDGate
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(187): [PCDPC] - Port size (5) does not match connection size (32) for port 'MUX_Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(284): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(284): [PCDPC] - Port size (32) does not match connection size (28) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+add wave sim:/MIPS_Processor_TB/*
+run
+restart -f
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(187): [PCDPC] - Port size (5) does not match connection size (32) for port 'MUX_Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(284): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(284): [PCDPC] - Port size (32) does not match connection size (28) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+run -all
+add wave -position 6  sim:/MIPS_Processor_TB/DUV/RAM/ram[0]
+add wave -position 7  sim:/MIPS_Processor_TB/DUV/RAM/ram[4]
+add wave -position 8  sim:/MIPS_Processor_TB/DUV/RAM/ram[8]
+add wave -position 10  sim:/MIPS_Processor_TB/DUV/RAM/ram[32]
+add wave -position 11  sim:/MIPS_Processor_TB/DUV/RAM/ram[36]
+add wave -position 12  sim:/MIPS_Processor_TB/DUV/RAM/ram[40]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/RAM/ram[64]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/RAM/ram[68]
+add wave -position end  sim:/MIPS_Processor_TB/DUV/RAM/ram[72]
+restart -f
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(187): [PCDPC] - Port size (5) does not match connection size (32) for port 'MUX_Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(284): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(284): [PCDPC] - Port size (32) does not match connection size (28) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/MIPSProjects/MIPSProcessor/wave.do
+
+run 200
+quit -sim
+# End time: 22:59:23 on Mar 30,2020, Elapsed time: 0:28:29
+# Errors: 0, Warnings: 15
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of OR_Gate.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# 19 compiles, 0 failed with no errors.
+vsim -gui work.MIPS_Processor_TB
+# vsim -gui work.MIPS_Processor_TB 
+# Start time: 22:59:35 on Mar 30,2020
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Control
+# Loading work.Multiplexer2to1
+# Loading work.PC_Register
+# Loading work.OR_Gate
+# Loading work.ProgramMemory
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.DataMemory
+# Loading work.Adder32bits
+# Loading work.ShiftLeft2
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ANDGate
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(285): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(285): [PCDPC] - Port size (32) does not match connection size (28) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(336): [PCDPC] - Port size (5) does not match connection size (32) for port 'MUX_Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+add wave sim:/MIPS_Processor_TB/*
+
+run 200
+
+
+do wave.do
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 23:12:07 on Mar 30,2020, Elapsed time: 0:12:32
+# Errors: 0, Warnings: 5
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of OR_Gate.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# 19 compiles, 0 failed with no errors.
+vsim -gui work.MIPS_Processor_TB
+# vsim -gui work.MIPS_Processor_TB 
+# Start time: 23:12:24 on Mar 30,2020
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.ProgramMemory
+# Loading work.Adder32bits
+# Loading work.Multiplexer2to1
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.DataMemory
+# Loading work.ShiftLeft2
+# Loading work.ANDGate
+# Loading work.OR_Gate
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(235): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(235): [PCDPC] - Port size (32) does not match connection size (28) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(315): [PCDPC] - Port size (5) does not match connection size (32) for port 'MUX_Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+
+do wa
+# Cannot open macro file: wa
+do wave.do
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 23:14:47 on Mar 30,2020, Elapsed time: 0:02:23
+# Errors: 1, Warnings: 5
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of OR_Gate.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# 19 compiles, 0 failed with no errors.
+vsim -gui work.MIPS_Processor_TB
+# vsim -gui work.MIPS_Processor_TB 
+# Start time: 23:14:57 on Mar 30,2020
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.ProgramMemory
+# Loading work.Adder32bits
+# Loading work.Multiplexer2to1
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.DataMemory
+# Loading work.ShiftLeft2
+# Loading work.ANDGate
+# Loading work.OR_Gate
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(235): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(235): [PCDPC] - Port size (32) does not match connection size (28) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(315): [PCDPC] - Port size (5) does not match connection size (32) for port 'MUX_Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+
+do wave.do
+run 1000
+quit -sim
+# End time: 23:33:25 on Mar 30,2020, Elapsed time: 0:18:28
+# Errors: 0, Warnings: 5
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of OR_Gate.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# 19 compiles, 0 failed with no errors.
+vsim -gui work.MIPS_Processor_TB
+# vsim -gui work.MIPS_Processor_TB 
+# Start time: 23:33:37 on Mar 30,2020
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.ProgramMemory
+# Loading work.Adder32bits
+# Loading work.Multiplexer2to1
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.DataMemory
+# Loading work.ShiftLeft2
+# Loading work.ANDGate
+# Loading work.OR_Gate
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(289): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(289): [PCDPC] - Port size (32) does not match connection size (28) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(315): [PCDPC] - Port size (5) does not match connection size (32) for port 'MUX_Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+do wave.do
+run 1000
+restart -f
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(289): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(289): [PCDPC] - Port size (32) does not match connection size (28) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(315): [PCDPC] - Port size (5) does not match connection size (32) for port 'MUX_Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+
+run 20000
+run 100000
+quit -sim
+# End time: 23:45:26 on Mar 30,2020, Elapsed time: 0:11:49
+# Errors: 0, Warnings: 10
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of OR_Gate.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# 19 compiles, 0 failed with no errors.
+vsim -gui work.MIPS_Processor_TB
+# vsim -gui work.MIPS_Processor_TB 
+# Start time: 23:45:40 on Mar 30,2020
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.ProgramMemory
+# Loading work.Adder32bits
+# Loading work.Multiplexer2to1
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.DataMemory
+# Loading work.ShiftLeft2
+# Loading work.ANDGate
+# Loading work.OR_Gate
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(289): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(289): [PCDPC] - Port size (32) does not match connection size (28) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(315): [PCDPC] - Port size (5) does not match connection size (32) for port 'MUX_Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+add wave sim:/MIPS_Processor_TB/*
+
+run 200
+restart -f
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(289): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(289): [PCDPC] - Port size (32) does not match connection size (28) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(315): [PCDPC] - Port size (5) does not match connection size (32) for port 'MUX_Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+
+do wave.do
+run 200
+quit -sim
+# End time: 23:49:58 on Mar 30,2020, Elapsed time: 0:04:18
+# Errors: 0, Warnings: 10
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of OR_Gate.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# 19 compiles, 0 failed with no errors.
+vsim -gui work.MIPS_Processor_TB
+# vsim -gui work.MIPS_Processor_TB 
+# Start time: 23:50:20 on Mar 30,2020
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.ProgramMemory
+# Loading work.Adder32bits
+# Loading work.Multiplexer2to1
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.DataMemory
+# Loading work.ShiftLeft2
+# Loading work.ANDGate
+# Loading work.OR_Gate
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(289): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(289): [PCDPC] - Port size (32) does not match connection size (28) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(315): [PCDPC] - Port size (5) does not match connection size (32) for port 'MUX_Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+add wave sim:/MIPS_Processor_TB/*
+run 500
+
+do wave.do
+restart -f
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(289): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(289): [PCDPC] - Port size (32) does not match connection size (28) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(315): [PCDPC] - Port size (5) does not match connection size (32) for port 'MUX_Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+
+do wave.do
+
+run 500
+quit -sim
+# End time: 23:54:45 on Mar 30,2020, Elapsed time: 0:04:25
+# Errors: 0, Warnings: 10
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of OR_Gate.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# 19 compiles, 0 failed with no errors.
+vsim -gui work.MIPS_Processor_TB
+# vsim -gui work.MIPS_Processor_TB 
+# Start time: 23:54:59 on Mar 30,2020
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.ProgramMemory
+# Loading work.Adder32bits
+# Loading work.Multiplexer2to1
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.DataMemory
+# Loading work.ShiftLeft2
+# Loading work.ANDGate
+# Loading work.OR_Gate
+# ** Error (suppressible): (vsim-3584) C:/MIPSProjects/MIPSProcessor/Sources/RegisterFile.v(404): Module parameter 'start' not found for override.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/Register_File File: C:/MIPSProjects/MIPSProcessor/Sources/RegisterFile.v
+# Error loading design
+# End time: 23:55:00 on Mar 30,2020, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of OR_Gate.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# 19 compiles, 0 failed with no errors.
+vsim -gui work.MIPS_Processor_TB
+# vsim -gui work.MIPS_Processor_TB 
+# Start time: 23:56:01 on Mar 30,2020
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.ProgramMemory
+# Loading work.Adder32bits
+# Loading work.Multiplexer2to1
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.DataMemory
+# Loading work.ShiftLeft2
+# Loading work.ANDGate
+# Loading work.OR_Gate
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(289): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(289): [PCDPC] - Port size (32) does not match connection size (28) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(315): [PCDPC] - Port size (5) does not match connection size (32) for port 'MUX_Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+
+do wave.do
+run 500
+restart -f
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(289): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(289): [PCDPC] - Port size (32) does not match connection size (28) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(315): [PCDPC] - Port size (5) does not match connection size (32) for port 'MUX_Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+run -all
+quit -sim
+# End time: 00:01:56 on Mar 31,2020, Elapsed time: 0:05:55
+# Errors: 0, Warnings: 10
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of OR_Gate.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# 19 compiles, 0 failed with no errors.
+vsim -gui work.MIPS_Processor_TB
+# vsim -gui work.MIPS_Processor_TB 
+# Start time: 00:04:29 on Mar 31,2020
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.ProgramMemory
+# Loading work.Adder32bits
+# Loading work.Multiplexer2to1
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.DataMemory
+# Loading work.ShiftLeft2
+# Loading work.ANDGate
+# Loading work.OR_Gate
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(289): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(289): [PCDPC] - Port size (32) does not match connection size (28) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(315): [PCDPC] - Port size (5) does not match connection size (32) for port 'MUX_Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+
+do wave.do
+
+run 700
+quit -sim
+# End time: 00:06:54 on Mar 31,2020, Elapsed time: 0:02:25
+# Errors: 0, Warnings: 5
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of OR_Gate.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# 19 compiles, 0 failed with no errors.
+vsim -gui work.MIPS_Processor_TB
+# vsim -gui work.MIPS_Processor_TB 
+# Start time: 00:07:07 on Mar 31,2020
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.ProgramMemory
+# Loading work.Adder32bits
+# Loading work.Multiplexer2to1
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.DataMemory
+# Loading work.ShiftLeft2
+# Loading work.ANDGate
+# Loading work.OR_Gate
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(289): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(289): [PCDPC] - Port size (32) does not match connection size (28) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(315): [PCDPC] - Port size (5) does not match connection size (32) for port 'MUX_Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+
+do wave.do
+
+run 1000
+quit -sim
+# End time: 00:27:16 on Mar 31,2020, Elapsed time: 0:20:09
+# Errors: 0, Warnings: 5
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of OR_Gate.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# 19 compiles, 0 failed with no errors.
+vsim -gui work.MIPS_Processor_TB
+# vsim -gui work.MIPS_Processor_TB 
+# Start time: 00:28:27 on Mar 31,2020
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.ProgramMemory
+# Loading work.Adder32bits
+# Loading work.Multiplexer2to1
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.DataMemory
+# Loading work.ShiftLeft2
+# Loading work.ANDGate
+# Loading work.OR_Gate
+# ** Warning: (vsim-3017) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(302): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(302): [PCDPC] - Port size (32) does not match connection size (28) for port 'DataOutput'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/MIPSProjects/MIPSProcessor/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/MIPSProjects/MIPSProcessor/Sources/MIPS_Processor.v(330): [PCDPC] - Port size (5) does not match connection size (32) for port 'MUX_Data1'. The port definition is at: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/MUX_PreWriteRegister File: C:/MIPSProjects/MIPSProcessor/Sources/Multiplexer2to1.v
+add wave sim:/MIPS_Processor_TB/*
+
+do wave.do
+
+run 1000
+quit -sim
+# End time: 00:30:01 on Mar 31,2020, Elapsed time: 0:01:34
+# Errors: 0, Warnings: 5
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of OR_Gate.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# 19 compiles, 0 failed with no errors.

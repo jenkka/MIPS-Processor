@@ -1,0 +1,12 @@
+module MUX3to1 (
+		input ID_EXtoMUX, 
+		input EX_MEMtoMUX, 
+		input MEM_WBtoMUX,	 
+		input [2:0]selector, 
+		output MUX_outPut
+		
+);
+ 
+	 
+	assign MUX_outPut = s[2] ? ID_EXtoMUX : s[1] ? EX_MEMtoMUX :s[0] ? MEM_WBtoMUX;
+endmodule 

@@ -1,0 +1,5 @@
+module WB_IF
+(
+	input clk, 
+	input reset
+);

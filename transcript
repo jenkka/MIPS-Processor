@@ -1,0 +1,122 @@
+# Load canceled
+# Compile of SignExtend.v was successful.
+# Compile of Adder32bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of DataMemory.v was successful.
+# Compile of DecoderRegisterFile.v was successful.
+# Compile of Definitions.v was successful.
+# Compile of EX_MEM.v was successful.
+# Compile of forward_Unit.v was successful.
+# Compile of ID_EX.v was successful.
+# Compile of IF_ID.v was successful.
+# Compile of MEM_WB.v was successful.
+# Compile of MIPS_Processor.v was successful.
+# Compile of MIPS_Processor_TB.v was successful.
+# Compile of Multiplexer2to1.v was successful.
+# Compile of MUX_3To1.v was successful.
+# Compile of MUXRegisterFile.v was successful.
+# Compile of OR_Gate.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of ProgramMemory.v was successful.
+# Compile of Register.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of ShiftLeft2.v was successful.
+# 25 compiles, 0 failed with no errors.
+vsim -gui work.MIPS_Processor_TB
+# vsim -gui work.MIPS_Processor_TB 
+# Start time: 23:19:33 on May 06,2020
+# Loading work.MIPS_Processor_TB
+# Loading work.MIPS_Processor
+# Loading work.PC_Register
+# Loading work.ProgramMemory
+# Loading work.Adder32bits
+# Loading work.IF_ID
+# Loading work.Control
+# Loading work.RegisterFile
+# Loading work.DecoderRegisterFile
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.SignExtend
+# Loading work.ShiftLeft2
+# Loading work.ID_EX
+# Loading work.MUX3to1
+# Loading work.Multiplexer2to1
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.EX_MEM
+# Loading work.ANDGate
+# Loading work.OR_Gate
+# Loading work.DataMemory
+# Loading work.MEM_WB
+# Loading work.Forward_unit
+# ** Warning: (vsim-3017) C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/MIPS_Processor.v(267): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/ShiftLeft2.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/MIPS_Processor.v(267): [PCDPC] - Port size (32) does not match connection size (28) for port 'DataOutput'. The port definition is at: C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/ShiftLeft2.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/ShiftLeft2.v
+
+]
+# invalid command name "]"
+
+do wave.do
+
+run 2000
+
+restart
+# ** Warning: (vsim-3017) C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/MIPS_Processor.v(267): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/ShiftLeft2.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/MIPS_Processor.v(267): [PCDPC] - Port size (32) does not match connection size (28) for port 'DataOutput'. The port definition is at: C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/ShiftLeft2.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/ShiftLeft2.v
+run 10000
+
+restart
+# ** Warning: (vsim-3017) C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/MIPS_Processor.v(267): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/ShiftLeft2.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/MIPS_Processor.v(267): [PCDPC] - Port size (32) does not match connection size (28) for port 'DataOutput'. The port definition is at: C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/ShiftLeft2.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/ShiftLeft2.v
+run 4000
+restart
+# ** Warning: (vsim-3017) C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/MIPS_Processor.v(267): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/ShiftLeft2.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/MIPS_Processor.v(267): [PCDPC] - Port size (32) does not match connection size (28) for port 'DataOutput'. The port definition is at: C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/ShiftLeft2.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/ShiftLeft2.v
+run 2000
+restart
+# ** Warning: (vsim-3017) C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/MIPS_Processor.v(267): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/ShiftLeft2.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/MIPS_Processor.v(267): [PCDPC] - Port size (32) does not match connection size (28) for port 'DataOutput'. The port definition is at: C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/ShiftLeft2.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/ShiftLeft2.v
+run 3000
+add wave -position end  sim:/MIPS_Processor_TB/DUV/ControlUnit/Jr
+add wave -position end  sim:/MIPS_Processor_TB/DUV/ControlUnit/Jal
+add wave -position end  sim:/MIPS_Processor_TB/DUV/ControlUnit/Jump
+add wave -position end  sim:/MIPS_Processor_TB/DUV/ControlUnit/MemRead
+
+restart
+# ** Warning: (vsim-3017) C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV File: C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/MIPS_Processor.v
+# ** Warning: (vsim-3722) C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/MIPS_Processor_TB.v(24): [TFMPC] - Missing connection for port 'PortIn'.
+# ** Warning: (vsim-3015) C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/MIPS_Processor.v(267): [PCDPC] - Port size (32) does not match connection size (26) for port 'DataInput'. The port definition is at: C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/ShiftLeft2.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/ShiftLeft2.v
+# ** Warning: (vsim-3015) C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/MIPS_Processor.v(267): [PCDPC] - Port size (32) does not match connection size (28) for port 'DataOutput'. The port definition is at: C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/ShiftLeft2.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /MIPS_Processor_TB/DUV/SHIFT_L2 File: C:/Users/The Jenkka/Desktop/THE TEST/GitHubArquitecturaComputacional2020-master/Sources/ShiftLeft2.v
+run 3000
+# End time: 23:28:44 on May 06,2020, Elapsed time: 0:09:11
+# Errors: 1, Warnings: 24

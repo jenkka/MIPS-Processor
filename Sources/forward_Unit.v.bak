@@ -1,0 +1,23 @@
+module Forward_unit (
+   input ID_EX_RegRt_IN;
+   input ID_EX_RegRs_IN;
+   input EX_MEM_RegRd_IN;
+   input MEM_WB_RegRd_IN;
+	input EX_MEM_regWrite_IN;
+	input MEM_WB_regWrite_IN;
+   output forwardA;
+	output forwardB;
+  );
+  
+  always @ ( * ) begin
+
+    // EX_MEM hazard
+    if (EX_MEM_regWrite_IN && EX_MEM_RegRd_IN == ID_EX_RegRs_IN) assign forwardA = 2'b10;
+    else if (EX_MEM_regWrite_IN && EX_MEM_RegRd_IN == ID_EX_RegRt_IN) assign forwardB = 2'b10;
+
+    //  MEM_WB hazard
+    if (MEM_WB_regWrite_IN && MEM_WB_RegRd_IN == ID_EX_RegRs_IN && (EX_MEM_RegRd_IN != ID_EX_RegRs_IN ||EX_MEM_regWrite_IN == 2'd0)) assign forwardA = 2'b01;
+    else if (MEM_WB_regWrite_IN && MEM_WB_RegRd_IN == ID_EX_RegRt_IN && (EX_MEM_RegRd_IN != ID_EX_RegRt_IN ||EX_MEM_regWrite_IN == 2'd0)) assign val1_sel = 2'b01;
+
+  end
+endmodule // forwarding
